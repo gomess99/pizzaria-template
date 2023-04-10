@@ -223,7 +223,7 @@ include "cod/functions.php";
           </li><!-- End tab nav item -->
 
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-drinks">
               <h4>Drink's</h4>
             </a>
           </li><!-- End tab nav item -->
@@ -239,7 +239,7 @@ include "cod/functions.php";
               <h3>Pizzas</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-5 menu-starters">
             <?php $query = retornaDados() ; while ($dados = $query->fetch_array()) { ?>
 
                 <div class="bg-menu col-lx-4 menu-item icon-box d-flex flex-column justify-content-center align-items-center"data-aos="fade-up" data-aos-delay="200">
@@ -266,7 +266,7 @@ include "cod/functions.php";
               <h3>Salgados</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-5 menu-breakfast">
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
@@ -344,7 +344,7 @@ include "cod/functions.php";
               <h3>Petiscos</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-5 menu-lunch">
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
@@ -422,7 +422,7 @@ include "cod/functions.php";
               <h3>Cervejas</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-5 menu-dinner">
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
@@ -493,14 +493,14 @@ include "cod/functions.php";
             </div>
           </div><!-- End Dinner Menu Content -->
 
-          <div class="tab-pane fade" id="menu-dinner">
+          <div class="tab-pane fade" id="menu-drinks">
 
             <div class="tab-header text-center">
               <p>Menu</p>
               <h3>Drink's</h3>
             </div>
 
-            <div class="row gy-5">
+            <div class="row gy-5 menu-drinks">
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>

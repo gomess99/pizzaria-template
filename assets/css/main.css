@@ -892,12 +892,38 @@ section {
   background: linear-gradient(45deg,black 92.65%, var(--color-amarelo) 10%);
 }
 
-#menu-starters{
+.menu-starters{
   background-image: url('../../pizza-bg2.jpg');
-  background-size: 95%;
+  background-size: 90%;
   background-repeat: no-repeat;
-  background-position: center center;
   backdrop-filter: blur(50px);
+}
+
+.menu-breakfast{
+  background-image: url('../../batata-frita.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 36%;
+}
+
+.menu-lunch{
+  background-image: url('../../bacon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-dinner{
+  background-image: url('../../cerveja.jpg');
+  background-position: center;
+  background-size: 42.5%;
+  background-repeat: no-repeat;
+}
+
+.menu-drinks{
+  background-image: url('../../drinks.jpg');
+  background-size: 72%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .menu .nav-tabs {
